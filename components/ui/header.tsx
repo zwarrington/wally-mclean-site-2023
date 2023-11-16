@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import MobileMenu from './mobile-menu'
+import Link from 'next/link';
+import MobileMenu from './mobile-menu';
 import Image from 'next/image';
 import Logo from '../../public/images/web_development_logo.png';
 
@@ -39,55 +39,6 @@ export default function Header() {
               </a>
             </li>
 
-              {/* <li>
-                <Link
-                  href="/#hardluck-bracket"
-                  className="font-medium text-white-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
-                >
-                  Services
-                </Link>
-              </li> */}
-
-              <li>
-                <a
-                  href="/#services"
-                  className="font-medium text-white-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
-                >
-                  Services
-                </a>
-              </li>
-{/* 
-              <li>
-                <Link
-                  href="/"
-                  className="font-medium text-white-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
-                >
-                  About
-                </Link>
-              </li> */}
-
-              <li>
-                <a
-                  href="/#contact"
-                  className="font-medium text-white-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
-                >
-                  Contact
-                </a>
-              </li>
-
-              {/* <li>
-                <Link
-                  href="/signin"
-                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
-                >
-                  Sign in
-                </Link>
-              </li>
-              <li>
-                <Link href="/signup" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
-                  Sign up
-                </Link>
-              </li> */}
             </ul>
           </nav>
 
