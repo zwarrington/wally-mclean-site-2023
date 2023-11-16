@@ -1,7 +1,4 @@
 export default function Blocks() {
-  const titleStyle = {
-    textAlign: 'center',
-  }
   return (
     <section>
       <div id="contact" className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -96,7 +93,6 @@ export default function Blocks() {
 
         </div>
       </div>
-        <h1 id="hardluck-bracket" className="h1 mb-4" data-aos="fade-up" style={titleStyle}>Hard Luck Bracket</h1>
         <iframe src="https://challonge.com/a0lvvc71/module?theme=8228&amp;multiplier=1&amp;match_width_multiplier=1&amp;show_final_results=1&amp;show_standings=0&amp;show_live_status=0&amp;subdomain=" allow="fullscreen" width="100%" height="1200" frameBorder="0" scrolling="auto" allow-transparency="true"></iframe>
     </section>
   )
