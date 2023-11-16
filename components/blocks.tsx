@@ -93,7 +93,6 @@ export default function Blocks() {
 
         </div>
       </div>
-        <iframe src="https://challonge.com/a0lvvc71/module?theme=8228&amp;multiplier=1&amp;match_width_multiplier=1&amp;show_final_results=1&amp;show_standings=0&amp;show_live_status=0&amp;subdomain=" allow="fullscreen" width="100%" height="1200" frameBorder="0" scrolling="auto" allow-transparency="true"></iframe>
     </section>
   )
 }
